@@ -1,0 +1,10 @@
+# Motor Characterization Test Bench Dependencies
+
+# Core
+PyYAML>=5.0
+
+# GUI plotting
+matplotlib>=3.0.0
+
+# Testing
+pytest>=6.0.0

@@ -1,0 +1,5 @@
+# System Dependedncies
+
+# GUI plotting
+sudo apt install python3-matplotlib
+sudo apt install python3-tk

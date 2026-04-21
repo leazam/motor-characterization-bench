@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3.13
 """
 Motor Characterization Test Bench - Main Entry Point
 

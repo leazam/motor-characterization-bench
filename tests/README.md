@@ -17,13 +17,13 @@ python3 -m pytest tests/ -v --tb=short
 
 ## Test Files
 
-| File | Tests | Coverage |
-|------|-------|----------|
-| `test_binary_parser.py` | 14 | Correct decode, checksum failure, partial packet, resync after corruption |
-| `test_csv_parsers.py` | 19 | Normal read, malformed rows, empty file, missing columns |
-| `test_yaml_construction.py` | 14 | Parser builds field layout from YAML (binary + CSV) |
-| `test_synchronization.py` | 21 | Timestamp alignment, jitter margin handling |
-| `test_state_machine.py` | 36 | Phase transitions, abort conditions, safety limits |
+| File                        | Tests | Coverage                                                                  |
+|-----------------------------|-------|---------------------------------------------------------------------------|
+| `test_binary_parser.py`     | 14    | Correct decode, checksum failure, partial packet, resync after corruption |
+| `test_csv_parsers.py`       | 19    | Normal read, malformed rows, empty file, missing columns                  |
+| `test_yaml_construction.py` | 14    | Parser builds field layout from YAML (binary + CSV)                       |
+| `test_synchronization.py`   | 21    | Timestamp alignment, jitter margin handling                               |
+| `test_state_machine.py`     | 36    | Phase transitions, abort conditions, safety limits                        |
 
 **Total: 104 tests**
 
